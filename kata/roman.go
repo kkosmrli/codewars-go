@@ -1,4 +1,6 @@
-package katas
+package kata
+
+import "strings"
 
 // Decode is a Roman numbers decoder
 func Decode(roman string) int {
