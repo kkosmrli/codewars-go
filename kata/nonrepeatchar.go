@@ -8,7 +8,6 @@ import (
 //Find the first chars that is not repeated in a given string
 func FirstNonRepeating(str string) string {
 	occ := map[string]int{}
-
 	for _, s := range str {
 		ls := strings.ToLower(string(s))
 		occ[ls]++
