@@ -1,6 +1,7 @@
 package kata
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -12,9 +13,9 @@ func DecodeMorse(morseCode string) string {
 		letter := strings.Split(word, " ")
 		for _, l := range letter {
 			res = res //+ MORSE_CODE[l]
+			fmt.Println(l)
 		}
 		res = res + " "
 	}
-
 	return strings.TrimSpace(res)
 }
