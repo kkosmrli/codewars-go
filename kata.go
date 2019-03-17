@@ -7,6 +7,9 @@ import (
 
 func main() {
 	// Rainfall kata
-	fmt.Println(kata.Mean("London", kata.DaTa))
-	fmt.Println(kata.Variance("London", kata.DaTa))
+	//fmt.Println(kata.Mean("London", kata.DaTa))
+	//fmt.Println(kata.Variance("London", kata.DaTa))
+
+	// Non repeating char
+	fmt.Println(kata.FirstNonRepeating("stress"))
 }
