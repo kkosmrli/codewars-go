@@ -20,7 +20,7 @@ Lima:Jan 1.2,Feb 0.9,Mar 0.7,Apr 0.4,May 0.6,Jun 1.8,Jul 4.4,Aug 3.1,Sep 3.3,Oct
 
 // https://www.codewars.com/kata/56a32dd6e4f4748cc3000006/train/go
 func Mean(town string, strng string) float64 {
-	values := extractValues(town, strng)
+	values := extractValues(town, strng)	
 	res := 0.0
 	if len(values) == 0 {
 		return -1.0
