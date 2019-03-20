@@ -40,7 +40,6 @@ func ValidateSolution(m [][]int) bool {
 			}
 		}
 	}
-	fmt.Println("")
 	return true
 }
 
